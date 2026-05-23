@@ -32,9 +32,10 @@ ENV/
 env/
 .venv
 
-# PyTorch e modelos
-*.pth
+# PyTorch e modelos (mas incluir arquivos .pth salvos)
 models_saved/
+!models_saved/model.pth
+!models_saved/.gitkeep
 
 # Jupyter
 .ipynb_checkpoints
