@@ -1,0 +1,86 @@
+# DATASETS - Não incluir em nenhuma circunstância
+datasets/
+__MACOSX/
+
+# Python - Exceto arquivos de configuração
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# PyTorch e modelos
+*.pth
+models_saved/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend build
+frontend/build/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+*.log
+
+# Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temp
+uploads/
+temp/
+tmp/
+
+# Arquivos desnecessários
+*.psd
+*.sketch
+teste.png
+train.py
+train_colab.py
+split_dataset.py
+main.py
+
+
